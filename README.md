@@ -4,6 +4,7 @@ Terraform module to create AWS API Gateway / Lambda integrations with a single d
 
 ## Example Usage
 
+```
 module "apigw_integration" {
   source  = "../modules/apigw-integration/aws"
 
@@ -25,3 +26,4 @@ module "apigw_integration" {
   delete_enabled  = true
   options_enabled = true
 }
+```
